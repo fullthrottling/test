@@ -5,6 +5,9 @@ services:
       - rocky-data:/root
     ports:
       - "2222:22"
+    networks:
+      - bridge
     tty: true
+    stdin_open: true
 volumes:
   rocky-data:
