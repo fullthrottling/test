@@ -3,5 +3,8 @@ services:
     image: rockylinux:9-minimal
     volumes:
       - rocky-data:/root
+    ports:
+      - "2222:22"
+    tty: true
 volumes:
   rocky-data:
