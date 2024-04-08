@@ -1,6 +1,6 @@
 services:
   rockylinux:
-    image: rockylinux:9-minimal
+    image: rockylinux
     build: 
       context: .
       dockerfile: Dockerfile
