@@ -8,3 +8,5 @@ services:
     container_name: rocky9
     ports:
       - "2222:22"
+    tty: true
+    stdin_open: true
