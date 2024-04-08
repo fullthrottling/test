@@ -1,6 +1,7 @@
 services:
   rockylinux:
     image: rockylinux:9-minimal
+    command: "/bin/bash"
     volumes:
       - rocky-data:/root
     ports:
