@@ -1,12 +1,10 @@
 services:
-  rockylinix:
+  rockylinux:
     image: rockylinux:9-minimal
     volumes:
       - rocky-data:/root
     ports:
       - "2222:22"
-    networks:
-      - bridge
     tty: true
     stdin_open: true
 volumes:
