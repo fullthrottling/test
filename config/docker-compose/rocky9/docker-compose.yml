@@ -1,6 +1,6 @@
 services:
   rockylinux:
-    image: rockylinux
+    image: rockylinux/rockylinux
     build: 
       context: .
       dockerfile: Dockerfile
