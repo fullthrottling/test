@@ -1,6 +1,7 @@
 services:
   rockylinux:
     image: rockylinux:9-minimal
+    command: /usr/sbin/init
     container_name: rocky9
     ports:
       - "2222:22"
