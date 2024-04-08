@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  rockylinix:
+    image: rockylinux:9.3-minimal
+    volumes:
+      - rocky-data:/
+volumes:
+  rocky-data:
