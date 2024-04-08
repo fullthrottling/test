@@ -1,10 +1,6 @@
 services:
   rockylinux:
     image: rockylinux:9-minimal
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    command: "/bin/bash"
     volumes:
       - rocky-data:/root
     ports:
