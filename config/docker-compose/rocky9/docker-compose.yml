@@ -1,6 +1,7 @@
 services:
   rockylinux:
     image: rockylinux:9-minimal
+    container_name: rocky9
     ports:
       - "2222:22"
     tty: true
